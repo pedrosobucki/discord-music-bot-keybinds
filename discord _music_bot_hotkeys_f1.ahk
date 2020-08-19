@@ -3,6 +3,37 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+^h::
+{
+Send {Shift down}{Tab down}
+Send {Shift up}{Tab up}
+Sleep, 500
+Send, -------------------------------
+SendInput {return}
+Send, SHORTCUTS:
+SendInput {return}
+Send, -connect = Ctrl + Enter
+SendInput {return}
+Send, -disconnect = Ctrl + Backspace
+SendInput {return}
+Send, -pause = Ctrl + up
+SendInput {return}
+Send, -resume = Ctrl + down
+SendInput {return}
+Send, -next = Ctrl + right
+SendInput {return}
+Send, -back = Ctrl + left
+SendInput {return}
+Send, Customizable sounds = Ctrl + Numpad digit
+SendInput {return}
+Send, -------------------------------
+SendInput {return}
+Sleep, 500
+Send {Shift down}{Tab down}
+Send {Shift up}{Tab up}
+return
+}
+
 ^up::
 {
 Send {Shift down}{Tab down}
@@ -81,7 +112,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F1::
+^Numpad1::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -94,7 +125,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F2::
+^Numpad2::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -107,7 +138,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F3::
+^Numpad3::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -120,7 +151,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F4::
+^Numpad4::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -133,7 +164,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F5::
+^Numpad5::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -146,7 +177,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F6::
+^Numpad6::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -159,7 +190,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F7::
+^Numpad7::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -172,7 +203,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F8::
+^Numpad8::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -185,7 +216,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^F9::
+^Numpad9::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
