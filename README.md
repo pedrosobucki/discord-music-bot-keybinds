@@ -12,4 +12,23 @@ Download the .ahk files and execute the one which corresponds to your type of ke
 ## Step 3:
 Change your Discord "Toggle Overlay Lock" keybind to SHIFT + TAB.
 
-![image](https://drive.google.com/file/d/1wBocpIjHvt7cWmcZlfXSk9CIDNekBaOJ/view?usp=sharing)
+[Example Image](https://drive.google.com/file/d/1wBocpIjHvt7cWmcZlfXSk9CIDNekBaOJ/view?usp=sharing)
+
+That is already enough to use the keybinds, as listed here:
+
+## SHORTCUTS:
+- help = Ctrl + h
+- connect = Ctrl + Enter
+- disconnect = Ctrl + Backspace
+- pause = Ctrl + up
+- resume = Ctrl + down
+- next = Ctrl + right
+- back = Ctrl + left
+- Customizable sounds = Ctrl + Numpad digit  OR  Ctrl + F1-F9 
+
+## Step 4 (optional):
+###### Customizable Sounds
+In order to customize the shortcut sounds, you need to right click the .ahk file and click on "Edit Script": 
+[Example Image](https://drive.google.com/file/d/1IMI9bQg7wgYwWKiVaqffOGe1M55KqZtq/view?usp=sharing)
+
+Then find the "^Numpad" blocks of text coresponding to the key you want to reassign and replace the ";INSERT LINK HERE" tezt with the audio link you want assigned in that key (youtube, spotify, etc): [Example Image](https://drive.google.com/file/d/1Ncmh0FZoaM_5U59RsH_D3AR8dU6zerWO/view?usp=sharing)
