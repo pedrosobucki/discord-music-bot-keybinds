@@ -1,7 +1,38 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+^h::
+{
+Send {Shift down}{Tab down}
+Send {Shift up}{Tab up}
+Sleep, 500
+Send, -------------------------------
+SendInput {return}
+Send, SHORTCUTS:
+SendInput {return}
+Send, -connect = Ctrl + Enter
+SendInput {return}
+Send, -disconnect = Ctrl + Backspace
+SendInput {return}
+Send, -pause = Ctrl + up
+SendInput {return}
+Send, -resume = Ctrl + down
+SendInput {return}
+Send, -next = Ctrl + right
+SendInput {return}
+Send, -back = Ctrl + left
+SendInput {return}
+Send, Customizable sounds = Ctrl + Numpad digit
+SendInput {return}
+Send, -------------------------------
+SendInput {return}
+Sleep, 500
+Send {Shift down}{Tab down}
+Send {Shift up}{Tab up}
+return
+}
 
 ^up::
 {
