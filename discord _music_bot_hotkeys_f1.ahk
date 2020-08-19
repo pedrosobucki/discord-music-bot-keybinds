@@ -24,7 +24,7 @@ Send, -next = Ctrl + right
 SendInput {return}
 Send, -back = Ctrl + left
 SendInput {return}
-Send, Customizable sounds = Ctrl + Numpad digit
+Send, Customizable sounds = Ctrl + F1-F9
 SendInput {return}
 Send, -------------------------------
 SendInput {return}
@@ -112,7 +112,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad1::
+^F1::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -125,7 +125,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad2::
+^F2::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -138,7 +138,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad3::
+^F3::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -151,7 +151,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad4::
+^F4::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -164,7 +164,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad5::
+^F5::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -177,7 +177,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad6::
+^F6::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -190,7 +190,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad7::
+^F7::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -203,7 +203,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad8::
+^F8::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
@@ -216,7 +216,7 @@ Send {Shift up}{Tab up}
 return
 }
 
-^Numpad9::
+^F9::
 {
 Send {Shift down}{Tab down}
 Send {Shift up}{Tab up}
