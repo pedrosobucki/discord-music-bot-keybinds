@@ -31,3 +31,8 @@ In order to customize the shortcut sounds, you need to right click the .ahk file
 [Example Image](https://drive.google.com/file/d/1IMI9bQg7wgYwWKiVaqffOGe1M55KqZtq/view?usp=sharing)
 
 Then find the "^Numpad" blocks of text coresponding to the key you want to reassign and replace the ";INSERT LINK HERE" text with the audio link you want assigned in that key (youtube, spotify, etc): [Example Image](https://drive.google.com/file/d/1Ncmh0FZoaM_5U59RsH_D3AR8dU6zerWO/view?usp=sharing)
+
+After you have finished setting up your keybinds, just run the .ahk file again.
+
+## Stop keybinding
+To stop your computer from recognizing the keybindings, just finish the AutoHotKey execution from your Task manager or from the arrow in your taskbar: [Example Image](https://drive.google.com/file/d/120DllK3339mTyBTekYotVPBoG7wJMuZL/view?usp=sharing)
