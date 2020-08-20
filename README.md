@@ -10,8 +10,8 @@ Download the .ahk files and execute the one which corresponds to your type of ke
 - If your keyboard does not have a Numeric Keypad, execute the [discord_music_bot_hotkeys_f1.ahk](https://github.com/pedrosobucki/discord-music-bot-keybinds/blob/master/discord%20_music_bot_hotkeys_f1.ahk) file.
 
 ## Step 3:
-Change your Discord "Toggle Overlay Lock" keybind to SHIFT + TAB: 
-[Example Image](https://drive.google.com/file/d/1wBocpIjHvt7cWmcZlfXSk9CIDNekBaOJ/view?usp=sharing)
+Change your Discord "Toggle Overlay Lock" keybind to CTRL + SHIFT + TAB: 
+[Example Image](https://drive.google.com/file/d/1IuwUxC3wUv3xwP3YhSwPDantN2_W2TUJ/view?usp=sharing)
 
 That is already enough to use the keybinds, as listed here:
 
